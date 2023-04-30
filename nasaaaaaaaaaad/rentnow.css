@@ -1,0 +1,160 @@
+html{
+background-color: white;
+  }
+
+  /*mao ning design saimong over all header*/
+header {
+  background-color: rgba(255, 255, 255);  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 20px; 
+  
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*mao ning sa logo*/
+.logo img {
+  height: 100px;
+  border-radius: 150px;
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+/*mao dayn ning sa katong mga home churva*/
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: 750px
+  
+}
+
+nav li {
+  margin-right: 20px;
+  
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 20px;
+  
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #000;
+  color: #ff6600;
+  }
+  
+  h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    color: #000;
+
+}
+  /*form*/
+  form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgb(205, 212, 209);
+    border-radius: 5px;
+    margin-top: 100px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 80%;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #3e8e41;
+  }
+/* footer nga side*/
+footer {
+  background-color: #fefefe;
+  padding: 1px;
+  margin-top: 30px;
+  width: 100%;
+  height: 30%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+ }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 50px;
+
+  }
+  
+  .social-media-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-media-icons a:hover {
+    background-color: #555;
+  }
+  
+  .social-media-icons a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .social-media-icons a:hover img {
+    filter: invert(100%);
+  }
+  
+  
+  body {
+    overflow-y: scroll;
+  }    
